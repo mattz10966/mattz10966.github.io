@@ -63,8 +63,8 @@
     <a href="#projects" class="w3-bar-item w3-button">Projects</a>
     <a href="#experience" class="w3-bar-item w3-button">Experience</a>
     <a href="#publications" class="w3-bar-item w3-button">Research</a>
-    <a href="#service" class="w3-bar-item w3-button">Services</a>
-    <a href="#award" class="w3-bar-item w3-button">Awards</a>
+    <a href="#it" class="w3-bar-item w3-button">IT Skills</a>
+    <a href="#review" class="w3-bar-item w3-button">Review Activities</a>
   </div>
 </nav>
 
@@ -125,7 +125,7 @@
     </p>
 
 	<h4><li>Pose-Based Tremor Type and Level Analysis for Parkinson’s Disease from Video</li></h4>
-        <img style="width:96%;" src="images/pangu-pi.PNG"> 
+        <img style="width:96%;" src="images/SPA-TPA.png"> 
         <p class="w3-justify">
         <a style="color: #447ec9" href="https://link.springer.com/article/10.1007/s11548-023-03052-4">Paper</a> 
         </p>
@@ -133,42 +133,6 @@
         Current methods for diagnosis of PD rely on clinical examination. The accuracy of diagnosis ranges between 73% and 84%, and is influenced by the experience of the clinical assessor. Hence, an automatic, effective and interpretable supporting system for PD symptom identification would support clinicians in making more robust PD diagnostic decisions. In this way, we propose to analyze Parkinson’s tremor (PT) to support the analysis of PD, since PT is one of the most typical symptoms of PD with broad generalizability. To realize the idea, we present SPA-PTA, a deep learning-based PT classification and severity estimation system that takes consumer-grade videos of front-facing humans as input. The core of the system is a novel attention module with a lightweight pyramidal channel-squeezing-fusion architecture that effectively extracts relevant PT information and filters noise. It enhances modeling performance while improving system interpretability
         </p> 
 	  
-	<h4><li>The proposed system framework</li></h4>
-        <img style="width:96%;" src="images/VanillaNet.png"> 
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://github.com/huawei-noah/VanillaNet">Project Page</a> | <a style="color: #447ec9" href="https://arxiv.org/abs/2305.12972">Paper</a> | <a style="color: #447ec9" href="https://www.zhihu.com/question/531529633/answer/3047230939">Discussion on Zhihu</a> 
-        </p>
-        <p class="w3-justify">
-        <span style="color:red">VanillaNet is remarkable!</span> The concept was born from embracing the "less is more" philosophy in computer vision. It's elegantly designed by avoiding intricate depth and operations, such as self-attention, making it remarkably powerful yet concise. The 6-layer VanillaNet surpasses ResNet-34, and the 13-layer variant achieves about 83% Top-1 accuracy, outpacing the performance of networks with hundreds of layers, and revealing exceptional hardware efficiency advantages.
-        </p> 
-	 
-        <h4><li>Adder Neural Networks</li></h4>
-        <img style="width:96%;" src="images/AdderNet.jpg"> 
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://github.com/huawei-noah/AdderNet">Project Page</a> | <a style="color: #447ec9" href="https://arxiv.org/pdf/2101.10015.pdf">Hardware Implementation</a>
-        </p>
-        <p class="w3-justify">
-        I would like to say, <span style="color:red">AdderNet is very cool!</span> The initial idea was came up in about 2017 when climbing with some friends at Beijing. By replacing all convolutional layers (except the first and the last layers), we now can obtain comparable performance on ResNet architectures. In addition, to make the story more complete, we recent release the hardware implementation and some quantization methods. The results are quite encouraging, we can reduce both <strong>the energy consumption and thecircuit areas significantly without affecting the performance</strong>. Now, we are working on more applications to reduce the costs of launching AI algorithms such as low-level vision, detection, and NLP tasks.
-        </p> 
-
-        <h4><li>GhostNet on MindSpore: SOTA Lightweight CV Networks</li></h4>
-        <img style="width:96%;" src="images/GhostNet.png"> 
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://live.huawei.com/huaweiconnect/meeting/cn/5872.html">Huawei Connect (HC) 2020</a> | <a style="color: #447ec9" href="https://www.mindspore.cn/resources/hub">MindSpore Hub</a>
-        </p>
-        <p class="w3-justify">
-        The initial verison of GhostNet was accepted by CVPR 2020, which achieved SOTA performance on ImageNet: <span style="color:red">75.7%</span> top1 acc with only <span style="color:red">226M FLOPS</span>. In the current version, we release a series computer vision models (e.g. int8 quantization, detection, and larger networks) on <strong>MindsSpore 1.0</strong> and <strong>Mate 30 Pro (Kirin 990)</strong>.
-        </p> 
-
-        <h4><li>AI on Ascend: Real-Time Video Style Transfer</li></h4>
-        <img style="width:32%;" src="images/atlas200.png"> &nbsp&nbsp <img style="width:60%;" src="images/video.gif">
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://www.huaweicloud.com/intl/en-us/HDC.Cloud.html">Huawei Developer Conference (HDC) 2020</a> | <a style="color: #447ec9" href="https://developer.huaweicloud.com/exhibition/Atlas_neural_style.html">Online Demo</a>
-        </p>
-        <p class="w3-justify">
-        This project aims to develop a video style transfer system on the <strong>Huawei Atlas 200 DK AI developer Kit</strong>. The latency of the original model for processing one image is about <span style="color:red">630ms</span>. After accelerating it using our method, the lantency now is about <span style="color:red">40ms</span>. 
-        </p>  
-
   </div>
   
   <!-- The Experience Section -->
@@ -294,34 +258,26 @@
     </p>
   </div>
 
-<!-- The Services Section -->
-  <div class="w3-container w3-light-grey w3-padding-32" id="service">
-    <h2>Services</h2>
-      <p><li> Area Chair of <a href="https://nips.cc/Conferences/2023/">NeurIPS 2023</a>, <a href="https://icml.cc/Conferences/2023">ICML 2023</a>, <a href="https://nips.cc/Conferences/2022/">NeurIPS 2022</a>, <a href="https://icml.cc/Conferences/2021">ICML 2021</a>, <a href="https://nips.cc/Conferences/2021/">NeurIPS 2021</a>.</p>
-      <p><li> Action Editor of <a href="https://jmlr.org/tmlr/">TMLR (Transactions on Machine Learning Research)</a>.</p>
-      <p><li> Senior Program Committee Members of <a href="https://ijcai-21.org/">IJCAI 2021</a>, <a href="https://www.ijcai20.org/">IJCAI 2020</a> and <a href="https://www.ijcai19.org/program-committee.html">IJCAI 2019</a>.</p>
-      <p><li> Journal Reviewers of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE T-PAMI</a>, <a href="https://www.springer.com/journal/11263">IJCV</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">IEEE T-IP</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">IEEE T-NNLS</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046">IEEE T-MM</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69">IEEE T-KDE</a>, etc.</p>
-      <p><li> Program Committee Members of ICCV 2021, AAAI 2021, ICLR 2021, NeurIPS 2020, ICML 2020, ECCV 2020, CVPR 2020, ICLR 2020, AAAI 2020, ICCV 2019, CVPR 2019, ICLR 2019, AAAI 2019, IJCAI 2018, AAAI 2018, NeurIPS 2018, etc.</p>
+<!-- IT Skills -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="it">
+    <h2>IT Skills</h2>
+      <p>Python, Matlab, R, C++, SQL, VBA, Excel, SPSS, Tableau, Power BI</p>
   </div>
 
-  <!-- The Awards Section -->
-  <div class="w3-container w3-padding-32" id="award">
-    <h2>Awards</h2>
-    <p><li> 2020, <a href="https://mp.weixin.qq.com/s/dORL01lgFNDHgjp3KMJmiQ">Nomination for Outstanding Youth Paper Award</a>, <a href="https://worldaic.com.cn/portal/en/aboutus.html">WAIC</a>.</p>               
-    <p><li> 2017, <a href="https://research.google/outreach/phd-fellowship/recipients/?category=2017">Google PhD Fellowship</a>.</p>
-    <p><li> 2017, <a href="http://scholarship.baidu.com/">Baidu Scholarship.</a></p>
-    <p><li> 2017, President's PhD Scholarship, Peking University.</p>
-    <p><li> 2017, National Scholarship for Graduate Students.</p>
-    <p><li> 2016, National Scholarship for Graduate Students.</p>
+  <!-- The Review Activities Section -->
+  <div class="w3-container w3-padding-32" id="review">
+    <h2>Review Activities</h2>
+    <p>CVPR 2024</p>               
+    <p>MICCAI 2023</p>
+    <p>BMVC 2023, 2021</p>
   </div>  
 
   <div class="w3-light-grey w3-center w3-padding-24">
 
-    Welcome to use this website's <a href="https://github.com/YunheWang/HomePage">source code</a>, just add a link back to here. <a href="https://www.wangyunhe.site/">&#10025;</a>.</br>
-     <a style="color:red">Note: If you use this template, please remove the following code or replace it with your own counter!</a>.</br>
+    Thanks to Yunhe Wang, who kindly shared the open-source code for the website template.
 
-  <!-- Default Statcounter code for Yunhe Wang's Homepage
-  https://www.wangyunhe.site -->
+  <!-- Default Statcounter code for Haozheng Zhang's Homepage
+  https://mattz10966.github.io/ -->
   No.
   <script type="text/javascript">
   var sc_project=12347113; 
@@ -331,7 +287,7 @@
   var scJsHost = "https://";
   document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
   "statcounter.com/counter/counter.js'></"+"script>");
-  </script> Visitor Since Feb 2023. Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>
+  </script> Visitor Since Feb 2024. Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>
   <noscript>
     <div class="statcounter"><a title="Web Analytics Made Easy -
   StatCounter" href="https://statcounter.com/" target="_blank"><img
